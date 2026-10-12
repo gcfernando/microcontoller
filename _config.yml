@@ -1,0 +1,30 @@
+url: "https://gcfernando.github.io"
+baseurl: "/microcontoller"
+title: "MicroPython & Pico Examples"
+description: "A Raspberry Pi Pico 2 W MicroPython LED example, with source code and an explanation of GPIO and timing."
+lang: en
+plugins:
+  - jekyll-sitemap
+exclude:
+  - .claude
+  - .agents
+  - .codex
+  - packages
+  - node_modules
+
+# Public documentation navigation and presentation.
+repository: gcfernando/microcontoller
+theme: jekyll-theme-primer
+projects_hub: https://gcfernando.github.io/gcfernando/projects/
+project_category: "Hardware & learning"
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      title: "MicroPython & Pico Examples"
+      description: "A Raspberry Pi Pico 2 W MicroPython LED example, with source code and an explanation of GPIO and timing."
+  - scope:
+      path: "PiPico2W/FirstLed/readme.md"
+    values:
+      title: "Blink the Pico 2 W LED with MicroPython"
+      description: "Learn GPIO output and one-second timing with a short MicroPython onboard LED example for the Pico 2 W."
