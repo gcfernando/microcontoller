@@ -21,7 +21,7 @@ defaults:
   - scope:
       path: "README.md"
     values:
-      title: "MicroPython & Pico Examples"
+      title: "Raspberry Pi Pico 2 W MicroPython Examples"
       description: "A Raspberry Pi Pico 2 W MicroPython LED example, with source code and an explanation of GPIO and timing."
   - scope:
       path: "PiPico2W/FirstLed/readme.md"

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "MicroPython & Pico Examples — Documentation and Guides"
-description: "A Raspberry Pi Pico 2 W MicroPython LED example, with source code and an explanation of GPIO and timing."
+description: "Browse the Raspberry Pi Pico 2 W MicroPython example and its GPIO, timing and board setup instructions."
 permalink: /documentation/
 ---
 
